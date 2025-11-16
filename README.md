@@ -1,12 +1,12 @@
-# 🧹 Data Cleaning in SQL – Layoffs Dataset
+# Data Cleaning in SQL – Layoffs Dataset
 
-## 📘 Overview
+## Overview
 This project focuses on **data cleaning using SQL**, with the goal of improving data quality and ensuring consistency before performing analysis.  
 The dataset used in this project contains information about company layoffs, including company name, location, industry, date, and other relevant details.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Detect and handle **missing values (NULL)** in the dataset.  
 - Identify and remove **duplicate records**.  
 - Standardize **text data** (such as trimming spaces and unifying case formats).  
@@ -15,7 +15,7 @@ The dataset used in this project contains information about company layoffs, inc
 
 ---
 
-## 🗂️ Dataset Information
+## Dataset Information
 **Table name:** `layoffs`
 
 | Column Name | Description |
@@ -32,7 +32,7 @@ The dataset used in this project contains information about company layoffs, inc
 
 ---
 
-## ⚙️ Data Cleaning Process
+## Data Cleaning Process
 
 ### 1. Checking for Missing Values
 A dynamic SQL query was used to automatically check each column in the `layoffs` table for NULL values.  
@@ -63,7 +63,7 @@ String fields were standardized for uniformity:
 
 ---
 
-## 📊 Results
+## Results
 After cleaning:
 - All missing values were properly handled.  
 - Duplicate records were removed.  
@@ -72,7 +72,7 @@ After cleaning:
 
 ---
 
-## 🧠 Conclusion
+## Conclusion
 Data cleaning plays a vital role in ensuring the accuracy and reliability of any analytical project.  
 By leveraging SQL, missing data, duplicates, and inconsistencies were efficiently detected and corrected.  
 As a result, the cleaned `layoffs` dataset is ready for deeper insight generation and decision-making.
